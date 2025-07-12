@@ -130,6 +130,8 @@ if __name__ == "__main__":
     youtube_URL = input("Enter the YouTube URL: ")
     load_dotenv()
     transcribe(youtube_URL)
-    answer_question ("what is this toturial about?")
+    while True:
+        question = input("what are your question about this video")
+    answer_question (question)
 
 
