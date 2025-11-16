@@ -24,7 +24,8 @@ pip install yt-dlp openai httpx requests python-dotenv groq tiktoken langchain d
 
 Clone this repository:
 
-git clone https://github.com/yourusername/yt-video-qa.git
+git clone https://github.com/Mohammed-Taha20/Transcribe-Ask
+
 cd yt-video-qa
 
 
@@ -36,11 +37,10 @@ Create a .env file in the project root:
 GROQ_API_KEY=your_groq_api_key
 
 
-Ensure you have FFmpeg installed and update its path in the script:
-
-"ffmpeg_location": r"E:\programs\ffmpeg-7.1.1-full_build\bin"
+Note: Ensure you have FFmpeg installed and update its path in the script
 
 
 Run the script:
 
 python main.py
+
